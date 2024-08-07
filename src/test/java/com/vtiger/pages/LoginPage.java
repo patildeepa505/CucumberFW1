@@ -18,7 +18,7 @@ public class LoginPage extends PageActions {
         super(driver,logger);   //child call krega parent class ka methos
 		//this.driver= driver ;   abhi jrurt nahi kyu parent ki metho call krna hai toh super use krnge
 		PageFactory.initElements(driver, this);
-		
+		System.out.println("practise github commands");
 	}
 	
 	//first way to declare the variable
